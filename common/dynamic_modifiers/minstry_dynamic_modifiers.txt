@@ -1,0 +1,21 @@
+#### MINISTRY MODIDIFERS
+MINISTRY_dynamic_modifier = {
+	enable = { always = yes }
+	
+	icon = GFX_idea_POL_ideology_drift_defence
+
+	political_power_factor = ministry_var_political_power_factor
+	political_power_gain = ministry_var_political_power_gain
+
+	war_support_weekly = ministry_var_war_support_weekly
+
+	compliance_growth = ministry_var_compliance_growth
+	starting_compliance = ministry_var_starting_compliance
+
+	new_operative_slot_bonus = ministry_var_new_operative_slot_bonus
+	operative_slot = ministry_var_operative_slot
+
+	stability_factor = ministry_var_stability_factor
+
+	non_core_manpower = ministry_var_non_core_manpower
+}

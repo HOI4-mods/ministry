@@ -1,0 +1,239 @@
+ministry_category = {	
+	political_power_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			political_power_factor = -0.2
+			political_power_gain = -0.5
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_political_power_gain = 0.15
+			}
+
+			add_to_variable = {
+				ministry_var_political_power_factor = 0.15
+			}
+
+			custom_effect_tooltip = political_power_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+    }
+
+	war_support_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			political_power_gain = -0.2
+			war_support_factor = -0.25
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_war_support_weekly = 0.001
+			}
+		
+			custom_effect_tooltip = war_support_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+    }
+
+	compliance_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			resistance_growth = 0.3
+			political_power_gain = -0.2
+			compliance_growth = -0.2
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_compliance_growth = 0.1
+			}
+
+			add_to_variable = {
+				ministry_var_starting_compliance = 0.05
+			}
+			
+			custom_effect_tooltip = compliance_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+    }
+
+	operative_slot_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			agency_upgrade_time = 0.6
+			new_operative_slot_bonus = -4			
+			political_power_gain = -0.2
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_new_operative_slot_bonus = 1
+			}
+
+			add_to_variable = {
+				ministry_var_operative_slot = 1
+			}
+
+			custom_effect_tooltip = operative_slot_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+		}
+    }
+
+	stability_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			political_power_gain = -0.2
+			stability_factor = -0.25
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_stability_factor = 0.05
+			}
+
+			custom_effect_tooltip = stability_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+			
+		}
+
+		ai_will_do = {
+		}
+    }
+
+	non_core_manpower_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			political_power_gain = -0.2
+			non_core_manpower = -0.2
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_non_core_manpower = 0.1
+			}
+
+			custom_effect_tooltip = non_core_manpower_decision_tooltip
+
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+    }
+}

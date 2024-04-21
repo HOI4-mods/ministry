@@ -1,0 +1,21 @@
+﻿l_russian:
+ ministry_events.1.t:0 "Your minister has improved his skills"
+ ministry_events.1.d:0 "This is just a notification to let you know that your Minister graduated."
+ ministry_events.1.a:0 "Finally"
+ 
+ MINISTRY_dynamic_modifier:0 "Кабинет министров"
+
+# Категория
+ ministry_category:0 "Собрать свой Кабинет министров"
+ ministry_category_desc:0 "Собрать свой Кабинет министров" 
+ 
+ # Decisions
+ political_power_decision:0 "Нанять министра внутренних дел"
+ war_support_decision:0 "Нанять министра по пропаганде"
+ compliance_decision:0 "Нанять министра по ассимиляции и развитию колонии" 
+ operative_slot_decision:0 "Нанять министра по разведке и контроразведке"
+ stability_decision:0 "Нанять министра по юстиции"
+ non_core_manpower_decision:0 "Нанять министра обороны в колониях"
+
+ political_power_decision_tooltip:0 "Наем министра, и каждое повышение его уровня, дает ежедневный прирост политической власти 0.15 и прирост политической власти 15%"
+ 

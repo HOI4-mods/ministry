@@ -1,0 +1,5 @@
+ministry_category = {
+	icon = generic_economy
+
+	priority = 250
+}

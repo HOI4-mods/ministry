@@ -1,0 +1,27 @@
+﻿l_english:
+ ministry_events.1.t: "Your Minister has improved his skills"
+ ministry_events.1.d: "This is just a notification to let you know that your Minister graduated."
+ ministry_events.1.a: "Finally"
+ 
+ MINISTRY_dynamic_modifier: "Ministry"
+
+# Категория
+ ministry_category: "Собрать свой Кабинет министров"
+ ministry_category_desc: "Собрать свой Кабинет министров" 
+ 
+ # Decisions
+ political_power_decision: "Нанять министра внутренних дел"
+ war_support_decision: "Нанять министра по пропаганде"
+ compliance_decision: "Нанять министра по ассимиляции и развитию колонии" 
+ operative_slot_decision: "Нанять министра по разведке и контроразведке"
+ stability_decision: "Нанять министра по юстиции"
+ non_core_manpower_decision: "Нанять министра обороны в колониях"
+ 
+ hire_minister: "Наем министра, и каждое повышение его уровня, дает"
+ political_power_decision_tooltip: "$hire_minister$:\n$MODIFIER_POLITICAL_POWER_GAIN$: §G0.15§!\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G15%§!"
+ war_support_decision_tooltip: "$hire_minister$:\n$MODIFIER_WAR_SUPPORT_WEEKLY$: §G1%§!"
+ compliance_decision_tooltip: "$hire_minister$: \n$MODIFIER_COMPLIANCE_STARTING_VALUE$: §G5%§! \n$MODIFIER_COMPLIANCE_GROWTH$: §G10%§!"
+ operative_slot_decision_tooltip: "$hire_minister$: \n$MODIFIER_NEW_OPERATIVE_SLOT_BONUS$: §G1§! \n$MODIFIER_OPERATIVE_SLOT$: §G1§!"
+ stability_decision_tooltip: "$hire_minister$: \n$MODIFIER_STABILITY_FACTOR$: §G5%§!"
+ non_core_manpower_decision_tooltip: "$hire_minister$: \n$MODIFIER_GLOBAL_NON_CORE_MANPOWER$: §G10%§!"
+ 
