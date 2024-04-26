@@ -21,7 +21,7 @@
  hire_minister: "Наем министра, и каждое повышение его уровня, дает"
  political_power_decision_tooltip: "$hire_minister$:\n$MODIFIER_POLITICAL_POWER_GAIN$: §G0.15§!\n$MODIFIER_POLITICAL_POWER_FACTOR$: §G15%§!"
  war_support_decision_tooltip: "$hire_minister$:\n$MODIFIER_WAR_SUPPORT_WEEKLY$: §G0.01%§!"
- compliance_decision_tooltip: "$hire_minister$:\n$MODIFIER_COMPLIANCE_STARTING_VALUE$: §G5%§!\n$MODIFIER_COMPLIANCE_GROWTH$: §G10%§!"
+ compliance_decision_tooltip: "$hire_minister$:\n$MODIFIER_COMPLIANCE_STARTING_VALUE$: §G5%§!\n$MODIFIER_COMPLIANCE_GROWTH$: §G15%§!"
  operative_slot_decision_tooltip: "$hire_minister$:\n$MODIFIER_NEW_OPERATIVE_SLOT_BONUS$: §G1§!\n$MODIFIER_OPERATIVE_SLOT$: §G1§!"
  stability_decision_tooltip: "$hire_minister$:\n$MODIFIER_STABILITY_FACTOR$: §G5%§!"
  non_core_manpower_decision_tooltip: "$hire_minister$:\n$MODIFIER_GLOBAL_NON_CORE_MANPOWER$: §G10%§!"
