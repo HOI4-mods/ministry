@@ -98,7 +98,7 @@ ministry_category = {
 
         remove_effect = {
 			add_to_variable = {
-				ministry_var_compliance_growth = 0.1
+				ministry_var_compliance_growth = 0.15
 			}
 
 			add_to_variable = {
