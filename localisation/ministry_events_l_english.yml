@@ -25,4 +25,5 @@
  operative_slot_decision_tooltip: "$hire_minister$:\n$MODIFIER_NEW_OPERATIVE_SLOT_BONUS$: §G1§!\n$MODIFIER_OPERATIVE_SLOT$: §G1§!"
  stability_decision_tooltip: "$hire_minister$:\n$MODIFIER_STABILITY_FACTOR$: §G5%§!"
  non_core_manpower_decision_tooltip: "$hire_minister$:\n$MODIFIER_GLOBAL_NON_CORE_MANPOWER$: §G10%§!"
+ justification_decision_tooltip: "$hire_minister$:\n$MODIFIER_JUSTIFY_WAR_GOAL_TIME$: §G-20%§!"
  

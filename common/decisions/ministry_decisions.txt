@@ -236,4 +236,43 @@ ministry_category = {
 		ai_will_do = {
 		}
     }
+
+	justification_decision = {
+		icon = GFX_decision_icon_default
+
+		cost = 150
+		days_remove = 60
+		fire_only_once = no
+
+		modifier = {
+			enemy_justify_war_goal_time = -0.8	
+			justify_war_goal_time = 0.6
+			generate_wargoal_tension = 0.4			
+			political_power_gain = -0.2
+		}
+
+		visible = {
+		}
+		
+        available = {
+        }
+
+        remove_effect = {
+			add_to_variable = {
+				ministry_var_justify_war_goal_time = 0.2
+			}
+
+			custom_effect_tooltip = justification_decision_tooltip
+			
+			hidden_effect = {
+				country_event = ministry_events.1
+				add_dynamic_modifier = {
+					modifier = MINISTRY_dynamic_modifier
+				}
+			}
+		}
+
+		ai_will_do = {
+		}
+    }
 }
