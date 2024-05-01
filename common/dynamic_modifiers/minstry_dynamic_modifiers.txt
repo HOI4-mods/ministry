@@ -18,4 +18,6 @@ MINISTRY_dynamic_modifier = {
 	stability_factor = ministry_var_stability_factor
 
 	non_core_manpower = ministry_var_non_core_manpower
+
+	justify_war_goal_time = ministry_var_justify_war_goal_time
 }
