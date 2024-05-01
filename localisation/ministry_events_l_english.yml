@@ -16,6 +16,7 @@
  operative_slot_decision: "Hire a Minister of Intelligence and Counterintelligence"
  stability_decision: "Hire a Minister of Justice"
  non_core_manpower_decision: "Hire a Minister of Defense in the Colonies"
+ justification_decision: "Hire a Minister of Foreign affairs"
 
  # Tooltips
  hire_minister: "Hiring a minister, and each level upgrade, grants"

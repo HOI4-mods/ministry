@@ -16,6 +16,7 @@
  operative_slot_decision: "Нанять министра по разведке и контроразведке"
  stability_decision: "Нанять министра по юстиции"
  non_core_manpower_decision: "Нанять министра обороны в колониях"
+ justification_decision: "Нанять министра иностранных дел"
 
 # Tooltips
  hire_minister: "Наем министра, и каждое повышение его уровня, дает"

@@ -259,11 +259,11 @@ ministry_category = {
 
         remove_effect = {
 			add_to_variable = {
-				ministry_var_justify_war_goal_time = 0.2
+				ministry_var_justify_war_goal_time = -0.2
 			}
 
 			custom_effect_tooltip = justification_decision_tooltip
-			
+
 			hidden_effect = {
 				country_event = ministry_events.1
 				add_dynamic_modifier = {
